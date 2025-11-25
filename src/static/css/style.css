@@ -1,4 +1,135 @@
 body{
-    background-color: rgb(202, 202, 26);
-    font-family: Arial, sans-serif;
+    background-color: rgb(240, 240, 234);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
 }
+.cabeçalho{
+    background-color: white;
+    padding: 10px ;
+    border-radius: 5px;
+    text-align: center;
+    color: green;
+
+
+}
+
+nav {
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.5) ;
+}
+nav a {
+    margin: 0 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.5) ;
+    text-align: center;
+
+}
+
+footer{
+    background-color: rgb(4, 97, 4);
+    color: white;
+    text-align: center;
+    position: fixed;
+    padding: 2px;
+    width: 100%;
+    bottom: 0;
+}
+
+/* h1 {
+    color: #187540;
+    text-align: center;
+    padding: 20px;
+}
+a {
+    color: #1E90FF;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #2E8B57;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer p {
+    margin: 0;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+header nav a {
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 20px;
+}
+section h2 {
+    color: #2E8B57;
+}
+section p {
+    margin-bottom: 15px;
+}
+section img {
+    margin-bottom: 20px;
+}
+.section-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.section-gallery img {
+    width: calc(33% - 10px);
+    box-sizing: border-box;
+}
+@media (max-width: 768px) {
+    .section-gallery img {
+        width: calc(50% - 10px);
+    }
+}
+@media (max-width: 480px) {
+    .section-gallery img {
+        width: 100%;
+    }
+} */
