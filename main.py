@@ -1,11 +1,14 @@
-from flask import Flask, send_from_directory
+import os
 
-app = Flask(__name__)
+from flask import Flask, render_template, send_file
 
-@app.route("/")
+
+app = Flask(__name__,static_folder='src/static', template_folder='src/templates')
+
+# Página inicial
+@app.route('/')
 def index():
-    return send_from_directory('src/templates', 'index.html')
-
+    return render_template('index.html')
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=81, debug=True)
